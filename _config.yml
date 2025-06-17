@@ -1,4 +1,3 @@
-remote_theme: pages-themes/minimal@v0.2.0
-title: "Ferretería Lupercio"
-description: "Everything for your home and construction needs."
-theme: minimal
+theme: jekyll-theme-minimal
+title: Ferretería Lupercio
+description: Sitio web oficial de Ferretería Lupercio
