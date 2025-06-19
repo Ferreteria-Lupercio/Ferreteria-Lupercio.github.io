@@ -1,5 +1,6 @@
 ---
 title: Nosotros
+layout: default
 ---
 
 # Conoce Ferretería Lupercio
