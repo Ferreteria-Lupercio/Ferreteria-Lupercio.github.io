@@ -16,7 +16,7 @@ Contáctanos por los siguientes medios:
 
 - <i class="fas fa-envelope"></i> **Correo Electrónico:** ferreteria-lupercio@hotmail.com
 
-- <i class="fab fa-facebook"></i> **Síguenos en Facebook:** [Ferretería Lupercio](https://www.facebook.com/FerreteriaLupercio)
+- <i class="fab fa-facebook"></i> **Síguenos en Facebook:** <a href="https://www.facebook.com/profile.php?id=100054115195835" target="_blank" rel="noopener noreferrer">Ferretería Lupercio</a>
 
 ---
 
