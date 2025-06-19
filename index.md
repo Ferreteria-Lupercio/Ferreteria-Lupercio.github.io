@@ -1,5 +1,6 @@
 ---
 title: Inicio
+layout: default
 ---
 
 # Bienvenido a Ferretería Lupercio
