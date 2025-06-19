@@ -2,10 +2,23 @@
 title: Inicio
 ---
 
-# Bienvenidos a Ferretería Lupercio
+# Bienvenido a Ferretería Lupercio
 
-Tu ferretería de confianza en Aguascalientes, México.
+Somos una ferretería ubicada en Aguascalientes, comprometida con brindar productos de calidad, atención personalizada y soluciones prácticas para tus proyectos de construcción, reparación o mantenimiento.
 
-Encuentra herramientas, tornillos, materiales para construcción y asesoría experta — todo en un solo lugar.
+---
 
-> **¡Visítanos hoy y conoce todo lo que tenemos para tu hogar y tus proyectos!**
+## ¿Qué puedes hacer en nuestro sitio?
+
+- Explorar nuestro catálogo de productos
+- Conocer nuestras sucursales
+- Contactarnos para recibir asesoría o realizar cotizaciones
+
+---
+
+## Estamos para ayudarte
+
+Tu proyecto es importante. En Ferretería Lupercio trabajamos contigo para hacerlo realidad.
+
+[Contáctanos](./contacto.md)  
+[Ver sucursales](./sucursales.md)
