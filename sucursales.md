@@ -26,4 +26,4 @@ Av. Independencia 2505, Trojes de Alonso, Aguascalientes, Ags., México
 Lunes a viernes: 8:00 a.m. – 7:00 p.m.  
 Sábados: 8:00 a.m. – 5:00 p.m.
 
-*(Aquí irá un mapa de ubicación insertado)*
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.874836132864!2d-102.2969949!3d21.9393627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429efa1c8a72415%3A0xa29230dc4fd2ae3a!2sAv%20Independencia%202505%2C%20Trojes%20de%20Alonso%2C%2020908%20Aguascalientes%2C%20Ags.!5e0!3m2!1sen!2smx!4v1750375346807!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
