@@ -9,7 +9,7 @@ layout: default
   <span style="font-family: 'Poppins', sans-serif; color: #000;">Bienvenido a Ferretería</span>
   <span style="font-family: 'Alfa Slab One', serif; color: #8B3A3A; -webkit-text-stroke: 0.5px black; text-transform: none;"> Lupercio</span>
 </h1>
-  <p style="font-size: 2rem; color: black;">Tu ferretería de confianza en Aguascalientes</p>
+  <p style="font-size: 1.5rem; color: black;">Tu ferretería de confianza en Aguascalientes</p>
 </div>
 
 <!-- Featured Categories -->
