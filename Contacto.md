@@ -40,9 +40,11 @@ layout: default
     </p>
   </div>
 
-  <hr style="margin: 40px 0; width: 50%;">
+  <hr style="margin: 40px auto; width: 50%; border: 1px solid #ccc;">
 
-  <p>También puedes visitarnos directamente en cualquiera de nuestras sucursales.</p>
+  <p style="font-family: 'Alfa Slab One', serif; color: #a32626; font-size: 1.5rem; margin-top: 20px;">
+    También puedes visitarnos directamente en cualquiera de nuestras sucursales.
+  </p>
   
 </div>
 
