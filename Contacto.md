@@ -5,7 +5,9 @@ layout: default
 
 <div style="text-align: center; max-width: 800px; margin: 0 auto;">
 
-  <h1 style="font-family: 'Alfa Slab One', serif; color: #a32626;">Contáctanos</h1>
+<h1 style="font-family: 'Alfa Slab One', serif; color: #a32626; margin-top: 60px;">
+  Contáctanos
+</h1>
 
 <p style="font-size: 1.2rem;">
   ¿Tienes preguntas o necesitas una cotización?<br>
