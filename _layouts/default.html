@@ -93,7 +93,53 @@
     margin-top: 16px;
     margin-bottom: 6px;
   }
-    </style>
+
+  .sticky-note {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15);
+    margin: 30px auto;
+    max-width: 700px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+
+  .sticky-note::before,
+  .sticky-note::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #ddd;
+    transform: rotate(-5deg);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .sticky-note::before {
+    top: -10px;
+    left: 20px;
+  }
+
+  .sticky-note::after {
+    top: -10px;
+    right: 20px;
+    transform: rotate(5deg);
+  }
+
+  .sticky-note h2 {
+    color: #a32626;
+    text-align: center;
+  }
+
+  /* Theme-specific background colors */
+  .note-yellow { background-color: #fff8c4; }
+  .note-blue { background-color: #c8ddeb; }
+  .note-red { background-color: #f9d5d3; }
+  .note-beige { background-color: #f0e7db; }
+</style>
   </head>
 
   <body>
