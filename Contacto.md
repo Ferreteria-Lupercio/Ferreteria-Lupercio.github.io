@@ -7,8 +7,10 @@ layout: default
 
   <h1 style="font-family: 'Alfa Slab One', serif; color: #a32626;">Contáctanos</h1>
 
-  <p>¿Tienes preguntas o necesitas una cotización?<br>
-  Contáctanos por los siguientes medios:</p>
+<p style="font-size: 1.2rem;">
+  ¿Tienes preguntas o necesitas una cotización?<br>
+  Contáctanos por los siguientes medios:
+</p>
 
   <div style="margin-top: 30px; font-size: 1.1rem; line-height: 1.8; display: inline-block; text-align: left;">
     <p>
