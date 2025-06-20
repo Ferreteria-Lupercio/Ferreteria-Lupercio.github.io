@@ -5,31 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }}</title>
 
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <style>
-    /* Reset and basics */
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
+    /* Your full CSS here */
     html, body {
       margin: 0; padding: 0;
       font-family: Poppins, sans-serif;
       color: #333;
       background-color: #fff;
-      min-height: 100vh;
+      box-sizing: border-box;
     }
     body {
-      padding: 20px 20px 60px;
+      padding: 20px;
+      padding-bottom: 60px;
+      min-height: 100vh;
     }
     img, iframe {
       max-width: 100%;
       height: auto;
-      display: block;
     }
-
-    /* Header and logo */
     header {
       background-color: #f2f2f2;
       padding: 20px 30px;
@@ -41,14 +38,11 @@
       text-align: center;
       z-index: 1000;
     }
-
     header img {
       height: 150px;
       filter: drop-shadow(0 0 6px rgba(0,0,0,0.3));
       margin-bottom: 10px;
     }
-
-    /* Hamburger button */
     #menu-toggle {
       background: none;
       border: none;
@@ -56,11 +50,9 @@
       color: #a32626;
       cursor: pointer;
       padding: 5px 10px;
-      display: none; /* hidden on desktop */
+      display: none;
       z-index: 1100;
     }
-
-    /* Navigation styles */
     nav#nav-menu {
       width: 100%;
       background-color: #a32626;
@@ -68,12 +60,11 @@
       justify-content: center;
       flex-wrap: wrap;
       padding: 14px 0;
-      max-height: none; /* fully visible on desktop */
+      max-height: none;
       overflow: visible;
       transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
       z-index: 900;
     }
-
     nav#nav-menu a {
       color: white;
       text-decoration: none;
@@ -82,129 +73,10 @@
       font-weight: 700;
       font-size: 1rem;
       text-transform: uppercase;
-      white-space: nowrap;
     }
-
     nav#nav-menu a:hover {
       color: #f0b0b0;
     }
-
-    /* Sticky notes styles */
-    .sticky-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      margin: 40px auto;
-      max-width: 1200px;
-      text-align: center;
-    }
-
-    .sticky-container.single {
-      justify-content: center;
-    }
-
-    .sticky-note {
-      width: 300px;
-      padding: 20px;
-      font-family: 'Poppins', sans-serif;
-      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
-      transform: rotate(-1.5deg);
-      transition: transform 0.3s;
-      position: relative;
-      border-radius: 0;
-      background-color: #fff;
-      z-index: 1;
-    }
-
-    /* Hover effect */
-    .sticky-note:hover {
-      transform: rotate(0deg) scale(1.03);
-    }
-
-    /* Wide (horizontal) note */
-    .sticky-note.wide {
-      width: 90%;
-      max-width: 1000px;
-      transform: rotate(0deg);
-    }
-
-    /* Color variants */
-    .sticky-note.yellow { background-color: #fdf5c0; }
-    .sticky-note.red { background-color: #f2c6c6; }
-    .sticky-note.blue { background-color: #cce0f5; }
-    .sticky-note.orange { background-color: #ffe9d6; }
-
-    /* Tape effect */
-    .sticky-note::before,
-    .sticky-note::after {
-      content: "";
-      position: absolute;
-      width: 100px;
-      height: 30px;
-      background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMwIiB2aWV3Qm94PSIwIDAgMTAwIDMwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMzAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlPSJyZ2JhKDAgMCwwIDAuMSkiIHN0cm9rZS13aWR0aD0iMSIvPgogIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0id2hpdGUiIHN0b3Atb3BhY2l0eT0iMC41Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0id2hpdGUiIHN0b3Atb3BhY2l0eT0iMC4xNSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJ3aGl0ZSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIyMCIgeT0iNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjIwIiBmaWxsPSJ1cmwoI2cpIi8+Cjwvc3ZnPg==");
-      background-size: cover;
-      background-repeat: no-repeat;
-      top: -12px;
-      opacity: 1;
-      z-index: 2;
-    }
-
-    .sticky-note::before {
-      left: -10px;
-      transform: rotate(-8deg);
-    }
-
-    .sticky-note::after {
-      right: -10px;
-      transform: rotate(8deg);
-    }
-
-    /* Mobile responsiveness */
-    @media (max-width: 768px) {
-      header img {
-        height: 120px;
-        margin-bottom: 5px;
-      }
-      #menu-toggle {
-        display: block;
-      }
-      nav#nav-menu {
-        flex-direction: column;
-        align-items: center;
-        max-height: 0;
-        overflow: hidden;
-        padding: 0;
-        transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
-      }
-      nav#nav-menu.show {
-        max-height: 500px;
-        padding: 14px 0;
-      }
-      nav#nav-menu a {
-        margin: 10px 0;
-      }
-      .sticky-note {
-        width: 90%;
-        transform: rotate(0deg);
-      }
-      .sticky-note.wide {
-        width: 95%;
-      }
-      .sticky-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-      }
-      .sticky-note::before,
-      .sticky-note::after {
-        width: 40px;
-        height: 14px;
-        top: -8px;
-      }
-    }
-
-    /* Headings */
     h1 {
       font-family: 'Alfa Slab One', serif;
       font-size: 2.5rem;
@@ -226,6 +98,106 @@
       margin-top: 16px;
       margin-bottom: 6px;
     }
+    .sticky-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin: 40px auto;
+      max-width: 1200px;
+      text-align: center;
+    }
+    .sticky-container.single {
+      justify-content: center;
+    }
+    .sticky-note {
+      width: 300px;
+      padding: 20px;
+      font-family: 'Poppins', sans-serif;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+      transform: rotate(-1.5deg);
+      transition: transform 0.3s;
+      position: relative;
+      border-radius: 0;
+      background-color: #fff;
+      z-index: 1;
+    }
+    .sticky-note:hover {
+      transform: rotate(0deg) scale(1.03);
+    }
+    .sticky-note.wide {
+      width: 90%;
+      max-width: 1000px;
+      transform: rotate(0deg);
+    }
+    .sticky-note.yellow { background-color: #fdf5c0; }
+    .sticky-note.red { background-color: #f2c6c6; }
+    .sticky-note.blue { background-color: #cce0f5; }
+    .sticky-note.orange { background-color: #ffe9d6; }
+    .sticky-note::before,
+    .sticky-note::after {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 30px;
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMwIiB2aWV3Qm94PSIwIDAgMTAwIDMwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMzAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlPSJyZ2JhKDAgMCwwIDAuMSkiIHN0cm9rZS13aWR0aD0iMSIvPgogIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0id2hpdGUiIHN0b3Atb3BhY2l0eT0iMC41Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0id2hpdGUiIHN0b3Atb3BhY2l0eT0iMC4xNSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJ3aGl0ZSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIyMCIgeT0iNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjIwIiBmaWxsPSJ1cmwoI2cpIi8+Cjwvc3ZnPg==");
+      background-size: cover;
+      background-repeat: no-repeat;
+      top: -12px;
+      opacity: 1;
+      z-index: 2;
+    }
+    .sticky-note::before {
+      left: -10px;
+      transform: rotate(-8deg);
+    }
+    .sticky-note::after {
+      right: -10px;
+      transform: rotate(8deg);
+    }
+    @media (max-width: 768px) {
+      #menu-toggle {
+        display: block;
+      }
+      nav#nav-menu {
+        flex-direction: column;
+        align-items: center;
+        max-height: 0;
+        overflow: hidden;
+        padding: 0;
+      }
+      nav#nav-menu.show {
+        max-height: 500px;
+        padding: 14px 0;
+      }
+      nav#nav-menu a {
+        margin: 10px 0;
+      }
+      header {
+        flex-direction: column;
+      }
+      header img {
+        height: 120px;
+      }
+      .sticky-note {
+        width: 90%;
+        transform: rotate(0deg);
+      }
+      .sticky-note.wide {
+        width: 95%;
+      }
+      .sticky-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      .sticky-note::before,
+      .sticky-note::after {
+        width: 40px;
+        height: 14px;
+        top: -8px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -244,20 +216,7 @@
   </nav>
 
   <main>
-    <section class="sticky-container">
-      <div class="sticky-note yellow">
-        <h3>Asesoría Personalizada</h3>
-        <p>Ofrecemos atención y asesoría personalizada en cada compra para garantizar la satisfacción total.</p>
-      </div>
-      <div class="sticky-note red">
-        <h3>Variedad y Disponibilidad</h3>
-        <p>Contamos con una amplia variedad de productos y disponibilidad inmediata en nuestras sucursales.</p>
-      </div>
-      <div class="sticky-note blue">
-        <h3>Ubicación Estratégica</h3>
-        <p>Dos sucursales al norte de Aguascalientes para tu comodidad y fácil acceso.</p>
-      </div>
-    </section>
+    {{ content }}
   </main>
 
   <footer style="text-align: center; padding: 20px 0; border-top: 1px solid #ccc; color: #666; font-size: 14px;">
@@ -284,3 +243,4 @@
 
 </body>
 </html>
+
