@@ -8,19 +8,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <style>
-      /* Reset default margins and paddings for full width */
       html, body {
         margin: 0;
         padding: 0;
       }
 
-      /* Make images and iframes scale nicely */
       img, iframe {
         max-width: 100%;
         height: auto;
       }
 
-      /* Responsive padding and font size */
       body {
         padding: 20px;
         font-family: Arial, Verdana, Tahoma, sans-serif;
@@ -37,87 +34,83 @@
         }
       }
 
-      /* Nav link hover - deep red */
       header nav a:hover {
-        color: #a32626; /* deep red */
+        color: #a32626;
       }
-      /* Oculta el botón hamburguesa en pantallas grandes */
-#menu-toggle {
-  display: none;
-}
 
-/* En pantallas pequeñas */
-@media (max-width: 768px) {
-  /* Mostrar botón hamburguesa */
-  #menu-toggle {
-    display: block;
-  }
-  
-  /* Ocultar menú por defecto */
-  #nav-menu {
-    display: none;
-    flex-direction: column;
-    background-color: #B0C4DE;
-    position: absolute;
-    top: 70px; /* Debajo del header */
-    right: 0;
-    width: 200px;
-    padding: 10px;
-    border-radius: 0 0 0 8px;
-  }
+      /* Mobile styles */
+      #menu-toggle {
+        display: none;
+      }
 
-  /* Mostrar menú cuando está activo */
-  #nav-menu.active {
-    display: flex;
-  }
+      @media (max-width: 768px) {
+        #menu-toggle {
+          display: block;
+        }
 
-  /* Links del menú en móvil */
-  #nav-menu a {
-    margin: 10px 0;
-  }
-}
+        #nav-menu {
+          display: none;
+          flex-direction: column;
+          background-color: #B0C4DE;
+          position: absolute;
+          top: 80px;
+          right: 30px;
+          width: 200px;
+          padding: 10px;
+          border-radius: 0 0 0 8px;
+          z-index: 10;
+        }
 
+        #nav-menu.active {
+          display: flex;
+        }
+
+        #nav-menu a {
+          margin: 10px 0;
+        }
+      }
     </style>
   </head>
+
   <body>
-<header style="width: 100%; display: flex; align-items: center; justify-content: space-between; background-color: #B0C4DE; padding: 10px 30px; box-sizing: border-box; position: relative;">
-  <div style="background-color: white; padding: 8px 15px; border-radius: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.15); display: flex; align-items: center;">
-    <img src="/assets/logo.png" alt="Ferretería Lupercio Logo" style="height: 80px; filter: drop-shadow(0 0 4px rgba(0,0,0,0.3));" />
-  </div>
+    <header style="width: 100%; display: flex; align-items: center; justify-content: space-between; background-color: #B0C4DE; padding: 10px 30px; box-sizing: border-box; position: relative;">
+      <div style="background-color: white; padding: 8px 15px; border-radius: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.15); display: flex; align-items: center;">
+        <img src="/assets/logo.png" alt="Ferretería Lupercio Logo" style="height: 80px; filter: drop-shadow(0 0 4px rgba(0,0,0,0.3));" />
+      </div>
 
-  <!-- Navigation menu -->
-  <nav id="nav-menu" style="display: flex;">
-    <a href="/" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Inicio</a>
-    <a href="/Nosotros" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Nosotros</a>
-    <a href="/Productos" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Productos</a>
-    <a href="/Sucursales" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Sucursales</a>
-    <a href="/Contacto" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Contacto</a>
-  </nav>
+      <!-- Hamburger button -->
+      <button id="menu-toggle" aria-label="Toggle menu" style="display: none; background: none; border: none; font-size: 28px; color: white; cursor: pointer;">
+        &#9776;
+      </button>
 
-  <!-- Botón hamburguesa -->
-  <button id="menu-toggle" aria-label="Toggle menu" style="display: none; background: none; border: none; font-size: 28px; color: white; cursor: pointer;">
-    &#9776;
-  </button>
+      <!-- Navigation menu -->
+      <nav id="nav-menu" style="display: flex;">
+        <a href="/" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Inicio</a>
+        <a href="/Nosotros" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Nosotros</a>
+        <a href="/Productos" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Productos</a>
+        <a href="/Sucursales" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Sucursales</a>
+        <a href="/Contacto" style="color: white; text-decoration: none; margin: 0 20px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;">Contacto</a>
+      </nav>
+    </header>
 
-</header>
-
-<!-- Deep red bar under header -->
-<div style="width: 100%; height: 4px; background-color: #a32626; margin: 0;"></div>
+    <!-- Deep red bar under header -->
+    <div style="width: 100%; height: 4px; background-color: #a32626; margin: 0;"></div>
 
     {{ content }}
 
     <footer style="text-align: center; padding: 20px 0; border-top: 1px solid #ccc; color: #666; font-size: 14px;">
       &copy; {{ site.time | date: "%Y" }} Ferretería Lupercio. All rights reserved.
     </footer>
+
+    <!-- JavaScript for hamburger menu -->
     <script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const navMenu = document.getElementById('nav-menu');
+      const menuToggle = document.getElementById('menu-toggle');
+      const navMenu = document.getElementById('nav-menu');
 
-  menuToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-  });
-</script>
-
+      menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    </script>
   </body>
 </html>
 
