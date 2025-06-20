@@ -32,27 +32,30 @@
           max-width: 100%;
         }
       }
-         header nav a:hover {
-    color: #B0C4DE; /* light steel blue */
-  }
+
+      /* Nav link hover - deep red */
+      header nav a:hover {
+        color: #a32626; /* deep red */
+      }
     </style>
   </head>
   <body>
-     <header style="display: flex; align-items: center; justify-content: space-between; background-color: #1e2a38; padding: 10px 30px;">
-  <img src="/assets/logo.png" alt="Ferretería Lupercio Logo" style="height: 60px;" />
-  <nav>
-    <a href="/" style="color: white; text-decoration: none; margin: 0 15px;">Inicio</a>
-    <a href="/Nosotros" style="color: white; text-decoration: none; margin: 0 15px;">Nosotros</a>
-    <a href="/Productos" style="color: white; text-decoration: none; margin: 0 15px;">Productos</a>
-    <a href="/Sucursales" style="color: white; text-decoration: none; margin: 0 15px;">Sucursales</a>
-    <a href="/Contacto" style="color: white; text-decoration: none; margin: 0 15px;">Contacto</a>
-  </nav>
-</header>
+    <header style="display: flex; align-items: center; justify-content: space-between; background-color: #B0C4DE; padding: 10px 30px;">
+      <img src="/assets/logo.png" alt="Ferretería Lupercio Logo" style="height: 60px; box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); border-radius: 5px;" />
+      <nav>
+        <a href="/" style="color: white; text-decoration: none; margin: 0 15px;">Inicio</a>
+        <a href="/Nosotros" style="color: white; text-decoration: none; margin: 0 15px;">Nosotros</a>
+        <a href="/Productos" style="color: white; text-decoration: none; margin: 0 15px;">Productos</a>
+        <a href="/Sucursales" style="color: white; text-decoration: none; margin: 0 15px;">Sucursales</a>
+        <a href="/Contacto" style="color: white; text-decoration: none; margin: 0 15px;">Contacto</a>
+      </nav>
+    </header>
 
-  {{ content }}
+    {{ content }}
 
     <footer style="text-align: center; padding: 20px 0; border-top: 1px solid #ccc; color: #666; font-size: 14px;">
-  &copy; {{ site.time | date: "%Y" }} Ferretería Lupercio. All rights reserved.
-</footer>
+      &copy; {{ site.time | date: "%Y" }} Ferretería Lupercio. All rights reserved.
+    </footer>
   </body>
 </html>
+
