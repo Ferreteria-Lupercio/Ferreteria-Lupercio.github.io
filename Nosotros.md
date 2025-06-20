@@ -27,6 +27,16 @@ layout: default
   </div>
 </div>
 
+<div style="background-color: #ffe9d6; padding: 20px; border-radius: 10px; box-shadow: 3px 3px 10px rgba(0,0,0,0.1); margin: 30px auto; max-width: 700px; font-family: 'Poppins', sans-serif; transition: transform 0.3s ease;">
+  <h2 style="text-align: center; color: #a32626;">Nuestros Valores</h2>
+  <ul style="list-style: none; padding-left: 0;">
+    <li><strong>Honestidad:</strong> Actuar con transparencia en cada venta y asesoría ofrecida.</li>
+    <li><strong>Calidad:</strong> Ofrecer productos y servicios que satisfacen las necesidades del cliente.</li>
+    <li><strong>Compromiso:</strong> Buscar siempre la mejora continua y la satisfacción del cliente.</li>
+  </ul>
+</div>
+
+
 <style>
 .sticky-container {
   display: flex;
@@ -68,9 +78,3 @@ layout: default
 }
 </style>
 
-
-## Nuestros Valores
-
-- **Honestidad:** Actuar con transparencia en cada venta y asesoría ofrecida.  
-- **Calidad:** Ofrecer productos y servicios que satisfacen las necesidades del cliente.  
-- **Compromiso:** Buscar siempre la mejora continua y la satisfacción del cliente.
