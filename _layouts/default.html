@@ -20,7 +20,8 @@
 
       body {
         padding: 20px;
-        font-family: Arial, Verdana, Tahoma, sans-serif;
+        padding bottom: 60px;
+        font-family: poppins, sans-serif;
         color: #333;
         background-color: #fff;
         width: 100%;
@@ -69,6 +70,29 @@
           margin: 10px 0;
         }
       }
+        h1 {
+    font-family: 'Alfa Slab One', serif;
+    font-size: 2.5rem;
+    color: #a32626; /* Deep red */
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
+
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #555;
+    margin-top: 16px;
+    margin-bottom: 6px;
+  }
     </style>
   </head>
 
@@ -93,10 +117,12 @@
   <a href="/Contacto" style="color: white; text-decoration: none; margin: 0 40px; font-family: 'Trebuchet MS', Georgia, serif; font-weight: 700; font-size: 1rem; text-transform: uppercase;">Contacto</a>
 </nav>
 
+    <div style="margin-bottom: 60px;">
     {{ content }}
+    </div>
 
     <footer style="text-align: center; padding: 20px 0; border-top: 1px solid #ccc; color: #666; font-size: 14px;">
-      &copy; {{ site.time | date: "%Y" }} Ferretería Lupercio. All rights reserved.
+      &copy; {{ site.time | date: "%Y" }} Ferretería Lupercio.
     </footer>
 
     <!-- JavaScript for hamburger menu -->
