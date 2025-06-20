@@ -3,7 +3,7 @@ title: Sucursales
 layout: default
 ---
 
-<h1 style="text-align: center; margin-top: 40px; font-family: 'Alfa Slab One', serif; color: #a32626;">
+<h1 style="text-align: center; margin-top: 60px; font-family: 'Alfa Slab One', serif; color: #a32626;">
   Nuestras Sucursales
 </h1>
 
