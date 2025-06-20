@@ -265,13 +265,95 @@
   }
 </style>
 
-<!-- TOP HEADER -->
+<style>
+  header {
+    background-color: #f2f2f2;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+  header img {
+    height: 150px;
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3));
+  }
+
+  #menu-toggle {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #a32626;
+    cursor: pointer;
+    display: none;
+    padding: 5px 10px;
+  }
+
+  nav#nav-menu {
+    width: 100%;
+    background-color: #a32626;
+    overflow: hidden;
+    max-height: none; /* normal on desktop */
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  nav#nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    font-family: 'Trebuchet MS', Georgia, serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 20px 20px;
+    }
+
+    header img {
+      height: 120px;
+    }
+
+    #menu-toggle {
+      display: block;
+    }
+
+    nav#nav-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-height: 0;
+      overflow: hidden;
+      padding: 0; /* hide padding initially */
+    }
+
+    nav#nav-menu.show {
+      max-height: 500px;
+      padding: 14px 0;
+    }
+
+    nav#nav-menu a {
+      margin: 10px 0;
+    }
+  }
+</style>
+
+<!-- HEADER -->
 <header>
   <img src="/assets/logo.png" alt="Ferretería Lupercio Logo" />
   <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
 </header>
 
-<!-- RED NAVIGATION BAR -->
+<!-- NAVIGATION -->
 <nav id="nav-menu">
   <a href="/">Inicio</a>
   <a href="/Nosotros">Nosotros</a>
@@ -280,17 +362,7 @@
   <a href="/Contacto">Contacto</a>
 </nav>
 
-<!-- PAGE CONTENT -->
-<div style="margin-bottom: 60px;">
-  {{ content }}
-</div>
-
-<!-- FOOTER -->
-<footer style="text-align: center; padding: 20px 0; border-top: 1px solid #ccc; color: #666; font-size: 14px;">
-  &copy; {{ site.time | date: "%Y" }} Ferretería Lupercio.
-</footer>
-
-<!-- NAV TOGGLE SCRIPT -->
+<!-- SCRIPT -->
 <script>
   const toggleButton = document.getElementById('menu-toggle');
   const navMenu = document.getElementById('nav-menu');
