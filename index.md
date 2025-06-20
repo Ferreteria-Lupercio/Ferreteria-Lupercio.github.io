@@ -35,8 +35,8 @@ layout: default
 </div>
 
 <!-- Promotional Strip -->
-<div style="background-color: #a32626; color: white; text-align: center; padding: 15px; border-radius: 6px;">
-  <strong>Calidad, variedad y atención personalizada desde 1995.</strong>
+<div style="background-color: #a32626; color: white; text-align: center; padding: 15px; border-radius: 6px; font-family: 'Alfa Slab One', cursive; font-size: 1.1rem;">
+  <strong>Calidad, variedad y atención personalizada desde 2015.</strong>
 </div>
 
 <!-- Why Choose Us -->
