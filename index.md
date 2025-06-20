@@ -40,11 +40,13 @@ layout: default
 </div>
 
 <!-- Why Choose Us -->
-<div style="margin: 40px 0;">
-  <h2 style="text-align: center;">¿Por qué elegirnos?</h2>
-  <ul style="max-width: 600px; margin: auto; list-style: none; padding: 0; font-size: 1.1rem;">
-    <li><i class="fas fa-check-circle" style="color: #a32626; margin-right: 8px;"></i>Asesoría personalizada en cada compra</li>
-    <li><i class="fas fa-check-circle" style="color: #a32626; margin-right: 8px;"></i>Amplia variedad y disponibilidad inmediata</li>
+<div style="margin: 40px 0; padding: 30px 20px; background-color: #f9f9f9; border-radius: 12px; text-align: center;">
+  <h2 style="font-family: 'Georgia', serif; font-size: 2rem; color: #a32626; margin-bottom: 20px;">
+    ¿Por qué elegirnos?
+  </h2>
+  <ul style="max-width: 600px; margin: 0 auto; list-style: none; padding: 0; font-size: 1.1rem; font-family: 'Arial', sans-serif; color: #333; text-align: left;">
+    <li style="margin-bottom: 12px;"><i class="fas fa-check-circle" style="color: #a32626; margin-right: 8px;"></i>Asesoría personalizada en cada compra</li>
+    <li style="margin-bottom: 12px;"><i class="fas fa-check-circle" style="color: #a32626; margin-right: 8px;"></i>Amplia variedad y disponibilidad inmediata</li>
     <li><i class="fas fa-check-circle" style="color: #a32626; margin-right: 8px;"></i>Dos sucursales al norte de Aguascalientes</li>
   </ul>
 </div>
