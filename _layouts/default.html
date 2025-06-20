@@ -32,13 +32,22 @@
           max-width: 100%;
         }
       }
+         header nav a:hover {
+    color: #B0C4DE; /* light steel blue */
+  }
     </style>
   </head>
   <body>
-      <header style="display: flex; align-items: center; padding: 10px 0;">
-    <img src="/assets/logo.png" alt="Ferretería Lupercio Logo" style="height: 60px; margin-right: 15px;" />
-    {% include nav.html %}
-  </header>
+     <header style="display: flex; align-items: center; justify-content: space-between; background-color: #1e2a38; padding: 10px 30px;">
+  <img src="/assets/logo.png" alt="Ferretería Lupercio Logo" style="height: 60px;" />
+  <nav>
+    <a href="/" style="color: white; text-decoration: none; margin: 0 15px;">Inicio</a>
+    <a href="/Nosotros" style="color: white; text-decoration: none; margin: 0 15px;">Nosotros</a>
+    <a href="/Productos" style="color: white; text-decoration: none; margin: 0 15px;">Productos</a>
+    <a href="/Sucursales" style="color: white; text-decoration: none; margin: 0 15px;">Sucursales</a>
+    <a href="/Contacto" style="color: white; text-decoration: none; margin: 0 15px;">Contacto</a>
+  </nav>
+</header>
 
   {{ content }}
 
