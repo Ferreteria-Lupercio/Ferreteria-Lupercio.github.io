@@ -3,43 +3,28 @@ title: Contacto
 layout: default
 ---
 
-<h1>Contáctanos</h1>
+<div style="text-align: center; max-width: 800px; margin: 0 auto;">
 
-<p>¿Tienes preguntas o necesitas una cotización? <br>
-Contáctanos por los siguientes medios:</p>
+# Contáctanos
 
-<div style="margin-top: 30px; font-size: 1.1rem; line-height: 1.8;">
-  <p>
-    <i class="fa-solid fa-phone" style="color: #a32626; margin-right: 8px;"></i>
-    <strong>Teléfono:</strong><br>
-    - Sucursal Santa Anita: (449) 735-22-90<br>
-    - Sucursal Trojes de Alonso: (449) 912-49-93
-  </p>
+¿Tienes preguntas o necesitas una cotización?  
+Contáctanos por los siguientes medios:
 
-  <p>
-    <i class="fa-brands fa-whatsapp" style="color: #25D366; margin-right: 8px;"></i>
-    <strong>WhatsApp:</strong> (449) 271-14-77
-  </p>
+- <i class="fas fa-phone"></i> **Teléfono:**  
+  - Sucursal Santa Anita: (449) 735-22-90  
+  - Sucursal Trojes de Alonso: (449) 912-49-93
 
-  <p>
-    <i class="fa-solid fa-envelope" style="color: #a32626; margin-right: 8px;"></i>
-    <strong>Correo Electrónico:</strong> 
-    <a href="mailto:ferreteria-lupercio@hotmail.com" style="color: #333; text-decoration: none;">
-      ferreteria-lupercio@hotmail.com
-    </a>
-  </p>
+- <i class="fab fa-whatsapp"></i> **WhatsApp:** (449) 271-14-77
 
-  <p>
-    <i class="fa-brands fa-facebook" style="color: #1877F2; margin-right: 8px;"></i>
-    <strong>Facebook:</strong> 
-    <a href="https://www.facebook.com/profile.php?id=100054115195835" target="_blank" rel="noopener noreferrer" style="color: #1877F2; text-decoration: none;">
-      Ferretería Lupercio
-    </a>
-  </p>
-</div>
+- <i class="fas fa-envelope"></i> **Correo Electrónico:** ferreteria-lupercio@hotmail.com
 
-<hr style="margin: 40px 0;">
+- <i class="fab fa-facebook"></i> **Síguenos en Facebook:**  
+  <a href="https://www.facebook.com/profile.php?id=100054115195835" target="_blank" rel="noopener noreferrer">
+    Ferretería Lupercio
+  </a>
 
 <h2 style="font-family: 'Alfa Slab One', serif; color: #a32626; margin-top: 50px;">
   Visítanos directamente en cualquiera de nuestras sucursales
 </h2>
+
+</div>
