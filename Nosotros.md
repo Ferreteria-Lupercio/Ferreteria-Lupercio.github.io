@@ -3,7 +3,7 @@ title: Nosotros
 layout: default
 ---
 
-<h1 style="text-align: center;">Conoce Ferretería Lupercio</h1>
+<h1 style="text-align: center; margin-top: 60px;">Conoce Ferretería Lupercio</h1>
 
 <!-- Sticky horizontal -->
 <div class="sticky-container single">
