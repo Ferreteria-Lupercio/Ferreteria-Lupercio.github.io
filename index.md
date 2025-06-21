@@ -34,7 +34,8 @@ layout: default
   </div>
 </div>
 
-## Nuestras Sucursales
+<!-- Sucursales -->
+  <h2 style="text-align: center; margin-bottom: 20px;">Nuestras Sucursales</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px;">
 
