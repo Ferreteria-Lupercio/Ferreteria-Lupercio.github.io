@@ -65,7 +65,7 @@ layout: default
   <h2 style="font-family: 'Georgia', serif; font-size: 2rem; color: #a32626; margin-bottom: 20px;">
     ¿Por qué elegirnos?
   </h2>
-  <ul style="max-width: 600px; margin: 0 auto; list-style: none; padding: 0; font-size: 1.1rem; font-family: 'Arial', sans-serif; color: #333; text-align: left;">
+  <ul style="max-width: 600px; margin: 0 auto; list-style: none; padding: 0; font-size: 1.1rem; font-family: 'Arial', sans-serif; color: #333; text-align: center;">
     <li style="margin-bottom: 12px;"><i class="fas fa-check-circle" style="color: #a32626; margin-right: 8px;"></i>Asesoría personalizada en cada compra</li>
     <li style="margin-bottom: 12px;"><i class="fas fa-check-circle" style="color: #a32626; margin-right: 8px;"></i>Amplia variedad y disponibilidad inmediata</li>
     <li><i class="fas fa-check-circle" style="color: #a32626; margin-right: 8px;"></i>Dos sucursales al norte de Aguascalientes</li>
