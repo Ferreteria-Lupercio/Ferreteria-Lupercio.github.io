@@ -56,7 +56,7 @@ layout: default
 </div>
 
 <!-- Promotional Strip -->
-<div style="background-color: #a32626; color: white; text-align: center; padding: 15px; border-radius: 6px; font-family: 'Poppins', sans-serif; font-size: 1.1rem;">
+<div style="margin-top: 20px; background-color: #a32626; color: white; text-align: center; padding: 15px; border-radius: 6px; font-family: 'Poppins', sans-serif; font-size: 1.1rem;">
   <strong>Calidad, variedad y atención personalizada desde 2015.</strong>
 </div>
 
