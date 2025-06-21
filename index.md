@@ -41,14 +41,14 @@ layout: default
 
   <div style="max-width: 400px; text-align: center;">
     <a href="/Sucursales" style="text-decoration: none;">
-      <img src="/assets/sucursal-santa-anita.jpg" alt="Sucursal Santa Anita" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+      <img src="/assets/ferreteriasantaanita.png" alt="Sucursal Santa Anita" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
       <p style="margin-top: 10px; color: #a32626; font-weight: bold;">Sucursal Santa Anita</p>
     </a>
   </div>
 
   <div style="max-width: 450px; text-align: center;">
     <a href="/Sucursales" style="text-decoration: none;">
-      <img src="/assets/sucursal-trojes.jpg" alt="Sucursal Trojes de Alonso" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+      <img src="/assets/trojesdealonso.png" alt="Sucursal Trojes de Alonso" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
       <p style="margin-top: 10px; color: #a32626; font-weight: bold;">Sucursal Trojes de Alonso</p>
     </a>
   </div>
