@@ -72,7 +72,7 @@ layout: default
   </ul>
 </div>
 
-<div style="text-align: center; margin-top: 2rem;">
+<div style="text-align: center; margin-top: 4rem;">
   <p style="font-size: 1.2rem; margin-bottom: 1rem;">
     ¿Tienes dudas o necesitas ayuda? ¡Escríbenos directamente en nuestra página de Facebook!
   </p>
