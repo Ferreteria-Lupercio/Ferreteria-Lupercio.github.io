@@ -44,7 +44,7 @@ layout: default
     <p style="margin-top: 10px;"><strong>Sucursal Santa Anita</strong></p>
   </div>
 
-  <div style="max-width: 600px; text-align: center;">
+  <div style="max-width: 500px; text-align: center;">
     <img src="/assets/trojesdealonso.png" alt="Sucursal Trojes de Alonso" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
     <p style="margin-top: 10px;"><strong>Sucursal Trojes de Alonso</strong></p>
   </div>
