@@ -40,13 +40,17 @@ layout: default
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px;">
 
   <div style="max-width: 400px; text-align: center;">
-    <img src="/assets/ferreteriasantaanita.png" alt="Sucursal Santa Anita" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
-    <p style="margin-top: 10px;"><strong>Sucursal Santa Anita</strong></p>
+    <a href="/Sucursales" style="text-decoration: none;">
+      <img src="/assets/sucursal-santa-anita.jpg" alt="Sucursal Santa Anita" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+      <p style="margin-top: 10px; color: #a32626; font-weight: bold;">Sucursal Santa Anita</p>
+    </a>
   </div>
 
-  <div style="max-width: 500px; text-align: center;">
-    <img src="/assets/trojesdealonso.png" alt="Sucursal Trojes de Alonso" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
-    <p style="margin-top: 10px;"><strong>Sucursal Trojes de Alonso</strong></p>
+  <div style="max-width: 450px; text-align: center;">
+    <a href="/Sucursales" style="text-decoration: none;">
+      <img src="/assets/sucursal-trojes.jpg" alt="Sucursal Trojes de Alonso" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+      <p style="margin-top: 10px; color: #a32626; font-weight: bold;">Sucursal Trojes de Alonso</p>
+    </a>
   </div>
 
 </div>
