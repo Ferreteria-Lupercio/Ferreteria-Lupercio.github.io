@@ -34,6 +34,22 @@ layout: default
   </div>
 </div>
 
+## Nuestras Sucursales
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px;">
+
+  <div style="max-width: 400px; text-align: center;">
+    <img src="/assets/ferreteriasantaanita.png" alt="Sucursal Santa Anita" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+    <p style="margin-top: 10px;"><strong>Sucursal Santa Anita</strong></p>
+  </div>
+
+  <div style="max-width: 400px; text-align: center;">
+    <img src="/assets/trojesdealonso.png" alt="Sucursal Trojes de Alonso" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+    <p style="margin-top: 10px;"><strong>Sucursal Trojes de Alonso</strong></p>
+  </div>
+
+</div>
+
 <!-- Promotional Strip -->
 <div style="background-color: #a32626; color: white; text-align: center; padding: 15px; border-radius: 6px; font-family: 'Poppins', sans-serif; font-size: 1.1rem;">
   <strong>Calidad, variedad y atención personalizada desde 2015.</strong>
