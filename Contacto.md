@@ -5,7 +5,9 @@ layout: default
 
 <div style="text-align: center; max-width: 800px; margin: 0 auto;">
 
-<h1 style="font-family: 'Alfa Slab One', serif; color: #a32626; margin-top: 60px;">
+<img src="/assets/ferreterialogopainting.png" alt="Contáctanos" style="margin-top: 60px; width: 100%; max-width: 600px; border-radius: 8px;" />
+
+<h1 style="font-family: 'Alfa Slab One', serif; color: #a32626; margin-top: 40px;">
   Contáctanos
 </h1>
 
