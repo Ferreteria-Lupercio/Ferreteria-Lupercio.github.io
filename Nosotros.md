@@ -11,7 +11,7 @@ layout: default
     <h2>Nuestra Historia</h2>
     <p>Ferretería Lupercio es una empresa familiar con presencia en Aguascalientes desde hace más de nueve años.</p>
     <p>Nació como un pequeño negocio en el fraccionamiento Santa Anita, y gracias al compromiso con la calidad y el buen servicio, ha crecido hasta contar con dos sucursales.</p>
-    <p>Hoy es reconocida por su atención cercana, productos confiables y la confianza de sus clientes. Con el mismo espíritu que la vio nacer, la ferretería apuesta por adaptarse a los nuevos tiempos y acercarse a más personas a través de este sitio web.</p>
+    <p>Hoy es reconocida por su atención cercana, productos confiables y la confianza de sus clientes. Con el mismo espíritu que la vio nacer, la ferretería apuesta por adaptarse a los nuevos tiempos y acercarse a más personas en la comunidad.</p>
   </div>
 </div>
 
