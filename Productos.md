@@ -135,3 +135,116 @@ layout: default
     }
   }
 </style>
+
+<h2>Nuestras Marcas Destacadas</h2>
+
+<div class="marcas-grid">
+  <div class="marca">
+    <h3>Aquaplas</h3>
+    <ul>
+      <li>Tubería hidráulica y sanitaria</li>
+      <li>Conectores y codos de PVC</li>
+      <li>Tapas y válvulas para agua</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Astrorey</h3>
+    <ul>
+      <li>Láminas galvanizadas</li>
+      <li>Canales estructurales</li>
+      <li>Accesorios para techado</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>DeWalt</h3>
+    <ul>
+      <li>Taladros y rotomartillos</li>
+      <li>Atornilladores eléctricos</li>
+      <li>Baterías y cargadores</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Fandeli</h3>
+    <ul>
+      <li>Lijas en rollo y disco</li>
+      <li>Esmeriles abrasivos</li>
+      <li>Accesorios de desbaste</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Phillips</h3>
+    <ul>
+      <li>Focos LED y ahorradores</li>
+      <li>Interruptores y apagadores</li>
+      <li>Extensiones eléctricas</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Makita</h3>
+    <ul>
+      <li>Sierras circulares</li>
+      <li>Lijadoras eléctricas</li>
+      <li>Baterías de litio</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Irwin</h3>
+    <ul>
+      <li>Sargentos y prensas</li>
+      <li>Brocas de impacto</li>
+      <li>Cúteres y navajas</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Truper</h3>
+    <ul>
+      <li>Martillos y desarmadores</li>
+      <li>Pinzas y llaves</li>
+      <li>Cajas de herramientas</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Urrea</h3>
+    <ul>
+      <li>Llaves combinadas</li>
+      <li>Dado y matraca profesional</li>
+      <li>Maletines mecánicos</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>IUSA</h3>
+    <ul>
+      <li>Accesorios de plomería</li>
+      <li>Sanitarios y llaves de agua</li>
+      <li>Tubos de cobre y PVC</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Éxito</h3>
+    <ul>
+      <li>Discos de corte</li>
+      <li>Brocas y puntas</li>
+      <li>Desarmadores y llaves</li>
+    </ul>
+  </div>
+
+  <div class="marca">
+    <h3>Anbec</h3>
+    <ul>
+      <li>Selladores y siliconas</li>
+      <li>Adhesivos para construcción</li>
+      <li>Espumas expansivas</li>
+    </ul>
+  </div>
+</div>
+
