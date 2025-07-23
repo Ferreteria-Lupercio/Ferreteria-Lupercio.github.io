@@ -1,8 +1,8 @@
 ---
 title: Productos
 layout: default
+css: /assets/css/productos.css
 ---
-<link rel="stylesheet" href="/_layout/products.css" />
 
 <h1 style="text-align: center; color: #a32626; font-family: 'Alfa Slab One', serif; margin-bottom: 40px;">
   Nuestros Productos
