@@ -141,7 +141,7 @@ css: /assets/css/productos.css
 
 <div class="marcas-grid">
   <div class="marca">
-    <img src="assets/marca/aquaplas.png" alt="Aquaplas logo">
+    <img src="assets/aquaplas.png" alt="Aquaplas logo">
     <ul>
       <li>Tinacos</li>
       <li>Conectores y codos de PVC</li>
@@ -149,13 +149,13 @@ css: /assets/css/productos.css
     </ul>
   </div>
   <div class="marca">
-    <img src="assets/marca/astrorey.png" alt="Astrorey logo">
+    <img src="assets/astrorey.png" alt="Astrorey logo">
     <ul>
       <li>Calentadores Solares</li>
     </ul>
   </div>
   <div class="marca">
-    <img src="assets/marca/dewalt.png" alt="DeWalt logo">
+    <img src="assets/dewalt.png" alt="DeWalt logo">
     <ul>
       <li>Taladros y rotomartillos</li>
       <li>Atornilladores eléctricos</li>
@@ -164,7 +164,7 @@ css: /assets/css/productos.css
   </div>
 
   <div class="marca">
-    <img src="assets/marca/fandeli.png" alt="Fandeli logo">
+    <img src="assets/fandeli.png" alt="Fandeli logo">
     <ul>
       <li>Lijas en rollo y disco</li>
       <li>Esmeriles abrasivos</li>
@@ -172,7 +172,7 @@ css: /assets/css/productos.css
     </ul>
   </div>
   <div class="marca">
-    <img src="assets/marca/phillips.png" alt="Phillips logo">
+    <img src="assets/phillips.png" alt="Phillips logo">
     <ul>
       <li>Focos LED y ahorradores</li>
       <li>Interruptores y apagadores</li>
@@ -180,7 +180,7 @@ css: /assets/css/productos.css
     </ul>
   </div>
   <div class="marca">
-    <img src="assets/marca/makita.png" alt="Makita logo">
+    <img src="assets/makita.png" alt="Makita logo">
     <ul>
       <li>Sierras circulares</li>
       <li>Lijadoras eléctricas</li>
@@ -189,7 +189,7 @@ css: /assets/css/productos.css
   </div>
 
   <div class="marca">
-    <img src="assets/marca/irwin.png" alt="Irwin logo">
+    <img src="assets/irwin.png" alt="Irwin logo">
     <ul>
       <li>Sargentos y prensas</li>
       <li>Brocas de impacto</li>
@@ -197,7 +197,7 @@ css: /assets/css/productos.css
     </ul>
   </div>
   <div class="marca">
-    <img src="assets/marca/truper.png" alt="Truper logo">
+    <img src="assets/truper.png" alt="Truper logo">
     <ul>
       <li>Martillos y desarmadores</li>
       <li>Pinzas y llaves</li>
@@ -205,7 +205,7 @@ css: /assets/css/productos.css
     </ul>
   </div>
   <div class="marca">
-    <img src="assets/marca/urrea.png" alt="Urrea logo">
+    <img src="assets/urrea.png" alt="Urrea logo">
     <ul>
       <li>Llaves combinadas</li>
       <li>Dado y matraca profesional</li>
@@ -214,7 +214,7 @@ css: /assets/css/productos.css
   </div>
 
   <div class="marca">
-    <img src="assets/marca/iusa.png" alt="IUSA logo">
+    <img src="assets/iusa.png" alt="IUSA logo">
     <ul>
       <li>Accesorios de plomería</li>
       <li>Sanitarios y llaves de agua</li>
@@ -222,7 +222,7 @@ css: /assets/css/productos.css
     </ul>
   </div>
   <div class="marca">
-    <img src="assets/marca/exito.png" alt="Éxito logo">
+    <img src="assets/exito.png" alt="Éxito logo">
     <ul>
       <li>Discos de corte</li>
       <li>Brocas y puntas</li>
@@ -230,7 +230,7 @@ css: /assets/css/productos.css
     </ul>
   </div>
   <div class="marca">
-    <img src="assets/marca/anbec.png" alt="Anbec logo">
+    <img src="assets/anbec.png" alt="Anbec logo">
     <ul>
       <li>Selladores y siliconas</li>
       <li>Adhesivos para construcción</li>
