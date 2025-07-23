@@ -148,7 +148,6 @@ css: /assets/css/productos.css
       <li>Tapas y válvulas para agua</li>
     </ul>
   </div>
-
   <div class="marca">
     <h3>Astrorey</h3>
     <ul>
@@ -157,7 +156,6 @@ css: /assets/css/productos.css
       <li>Accesorios para techado</li>
     </ul>
   </div>
-
   <div class="marca">
     <h3>DeWalt</h3>
     <ul>
@@ -175,7 +173,6 @@ css: /assets/css/productos.css
       <li>Accesorios de desbaste</li>
     </ul>
   </div>
-
   <div class="marca">
     <h3>Phillips</h3>
     <ul>
@@ -184,7 +181,6 @@ css: /assets/css/productos.css
       <li>Extensiones eléctricas</li>
     </ul>
   </div>
-
   <div class="marca">
     <h3>Makita</h3>
     <ul>
@@ -202,7 +198,6 @@ css: /assets/css/productos.css
       <li>Cúteres y navajas</li>
     </ul>
   </div>
-
   <div class="marca">
     <h3>Truper</h3>
     <ul>
@@ -211,7 +206,6 @@ css: /assets/css/productos.css
       <li>Cajas de herramientas</li>
     </ul>
   </div>
-
   <div class="marca">
     <h3>Urrea</h3>
     <ul>
@@ -229,7 +223,6 @@ css: /assets/css/productos.css
       <li>Tubos de cobre y PVC</li>
     </ul>
   </div>
-
   <div class="marca">
     <h3>Éxito</h3>
     <ul>
@@ -238,7 +231,6 @@ css: /assets/css/productos.css
       <li>Desarmadores y llaves</li>
     </ul>
   </div>
-
   <div class="marca">
     <h3>Anbec</h3>
     <ul>
@@ -247,5 +239,6 @@ css: /assets/css/productos.css
       <li>Espumas expansivas</li>
     </ul>
   </div>
+  
 </div>
 
