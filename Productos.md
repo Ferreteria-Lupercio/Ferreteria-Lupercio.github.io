@@ -143,7 +143,7 @@ css: /assets/css/productos.css
   <div class="marca">
     <h3>Aquaplas</h3>
     <ul>
-      <li>Tubería hidráulica y sanitaria</li>
+      <li>Tinacos</li>
       <li>Conectores y codos de PVC</li>
       <li>Tapas y válvulas para agua</li>
     </ul>
@@ -151,9 +151,7 @@ css: /assets/css/productos.css
   <div class="marca">
     <h3>Astrorey</h3>
     <ul>
-      <li>Láminas galvanizadas</li>
-      <li>Canales estructurales</li>
-      <li>Accesorios para techado</li>
+      <li>Calentadores Solares</li>
     </ul>
   </div>
   <div class="marca">
