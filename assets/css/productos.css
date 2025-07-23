@@ -1,0 +1,27 @@
+.marcas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.marca {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.marca h3 {
+  color: #2e2e2e;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.marca ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.95rem;
+}
