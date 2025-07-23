@@ -29,7 +29,7 @@ layout: default
     <div style="background-color: #f5f5f5; padding: 20px; width: 250px; text-align: center; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
       <i class="fas fa-screwdriver" style="font-size: 2rem; color: #a32626;"></i>
       <h3>Ferretería General</h3>
-      <p>Tornillos, cintas, adhesivos y pintura</p>
+      <p>Tornillos, cintas y adhesivos</p>
     </div>
   </div>
 </div>
