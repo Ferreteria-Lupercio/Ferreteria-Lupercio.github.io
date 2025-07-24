@@ -4,7 +4,7 @@ layout: default
 css: /assets/css/productos.css
 ---
 
-<h1 style="text-align: center; color: #a32626; font-family: 'Alfa Slab One', serif; margin-bottom: 60px;">
+<h1 style="text-align: center; color: #a32626; font-family: 'Alfa Slab One', serif; margin-bottom: 60px; margin-top: 60px;">
   Nuestros Productos
 </h1>
 
