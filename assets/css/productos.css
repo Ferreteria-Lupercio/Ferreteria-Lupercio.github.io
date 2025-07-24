@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 200px;
+  height: 300px; /* ← actualizado aquí */
   overflow: hidden;
 }
 
@@ -48,7 +48,7 @@
 /* Responsivo */
 @media (max-width: 500px) {
   .marca {
-    height: auto;
+    height: auto; /* ← actualizado aquí */
     padding: 1rem 0.5rem;
   }
 
@@ -68,4 +68,3 @@
   color: #333;
   padding: 0 0.5rem;
 }
-
