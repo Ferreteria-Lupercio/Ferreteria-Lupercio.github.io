@@ -142,101 +142,100 @@ css: /assets/css/productos.css
 <div class="marcas-grid">
   <div class="marca">
     <img src="assets/aquaplas.png" alt="Aquaplas logo">
-    <ul>
-      <li>Tinacos</li>
-      <li>Conectores y codos de PVC</li>
-      <li>Tapas y válvulas para agua</li>
-    </ul>
+    <div class="marca-texto">
+      Tinacos<br>
+      Conectores y codos de PVC<br>
+      Tapas y válvulas para agua
+    </div>
   </div>
   <div class="marca">
     <img src="assets/astrorey.png" alt="Astrorey logo">
-    <ul>
-      <li>Calentadores Solares</li>
-    </ul>
+    <div class="marca-texto">
+      Calentadores Solares
+    </div>
   </div>
   <div class="marca">
     <img src="assets/dewalt.png" alt="DeWalt logo">
-    <ul>
-      <li>Taladros y rotomartillos</li>
-      <li>Atornilladores eléctricos</li>
-      <li>Baterías y cargadores</li>
-    </ul>
+    <div class="marca-texto">
+      Taladros y rotomartillos<br>
+      Atornilladores eléctricos<br>
+      Baterías y cargadores
+    </div>
   </div>
 
   <div class="marca">
     <img src="assets/fandeli.png" alt="Fandeli logo">
-    <ul>
-      <li>Lijas en rollo y disco</li>
-      <li>Esmeriles abrasivos</li>
-      <li>Accesorios de desbaste</li>
-    </ul>
+    <div class="marca-texto">
+      Lijas en rollo y disco<br>
+      Esmeriles abrasivos<br>
+      Accesorios de desbaste
+    </div>
   </div>
   <div class="marca">
     <img src="assets/phillips.png" alt="Phillips logo">
-    <ul>
-      <li>Focos LED y ahorradores</li>
-      <li>Interruptores y apagadores</li>
-      <li>Extensiones eléctricas</li>
-    </ul>
+    <div class="marca-texto">
+      Focos LED y ahorradores<br>
+      Interruptores y apagadores<br>
+      Extensiones eléctricas
+    </div>
   </div>
   <div class="marca">
     <img src="assets/makita.png" alt="Makita logo">
-    <ul>
-      <li>Sierras circulares</li>
-      <li>Lijadoras eléctricas</li>
-      <li>Baterías de litio</li>
-    </ul>
+    <div class="marca-texto">
+      Sierras circulares<br>
+      Lijadoras eléctricas<br>
+      Baterías de litio
+    </div>
   </div>
 
   <div class="marca">
     <img src="assets/irwin.png" alt="Irwin logo">
-    <ul>
-      <li>Sargentos y prensas</li>
-      <li>Brocas de impacto</li>
-      <li>Cúteres y navajas</li>
-    </ul>
+    <div class="marca-texto">
+      Sargentos y prensas<br>
+      Brocas de impacto<br>
+      Cúteres y navajas
+    </div>
   </div>
   <div class="marca">
     <img src="assets/truper.png" alt="Truper logo">
-    <ul>
-      <li>Martillos y desarmadores</li>
-      <li>Pinzas y llaves</li>
-      <li>Cajas de herramientas</li>
-    </ul>
+    <div class="marca-texto">
+      Martillos y desarmadores<br>
+      Pinzas y llaves<br>
+      Cajas de herramientas
+    </div>
   </div>
   <div class="marca">
     <img src="assets/urrea.png" alt="Urrea logo">
-    <ul>
-      <li>Llaves combinadas</li>
-      <li>Dado y matraca profesional</li>
-      <li>Maletines mecánicos</li>
-    </ul>
+    <div class="marca-texto">
+      Llaves combinadas<br>
+      Dado y matraca profesional<br>
+      Maletines mecánicos
+    </div>
   </div>
 
   <div class="marca">
     <img src="assets/iusa.png" alt="IUSA logo">
-    <ul>
-      <li>Accesorios de plomería</li>
-      <li>Sanitarios y llaves de agua</li>
-      <li>Tubos de cobre y PVC</li>
-    </ul>
+    <div class="marca-texto">
+      Accesorios de plomería<br>
+      Sanitarios y llaves de agua<br>
+      Tubos de cobre y PVC
+    </div>
   </div>
   <div class="marca">
     <img src="assets/exito.png" alt="Éxito logo">
-    <ul>
-      <li>Discos de corte</li>
-      <li>Brocas y puntas</li>
-      <li>Desarmadores y llaves</li>
-    </ul>
+    <div class="marca-texto">
+      Discos de corte<br>
+      Brocas y puntas<br>
+      Desarmadores y llaves
+    </div>
   </div>
   <div class="marca">
     <img src="assets/anbec.png" alt="Anbec logo">
-    <ul>
-      <li>Selladores y siliconas</li>
-      <li>Adhesivos para construcción</li>
-      <li>Espumas expansivas</li>
-    </ul>
+    <div class="marca-texto">
+      Selladores y siliconas<br>
+      Adhesivos para construcción<br>
+      Espumas expansivas
+    </div>
   </div>
-  
 </div>
 
