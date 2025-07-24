@@ -137,7 +137,7 @@ css: /assets/css/productos.css
   }
 </style>
 
-<h2 style="text-align: center;">Nuestras Marcas Destacadas</h2>
+<h2 style="text-align: center;">Marcas Destacadas</h2>
 
 <div class="marcas-grid">
   <div class="marca">
